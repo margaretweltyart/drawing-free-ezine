@@ -1,0 +1,515 @@
+<!--
+ BG COLOR: #4B4B4E;
+ NEW BG COLOR: 637a65;
+ LINK COLOR: #01578A;
+-->
+
+<html> 
+	<head>
+		<title>Drawing Free Ezine 5</title>
+		
+		<link rel="stylesheet" href="css/ezine.css" type="text/css">
+		
+		<style type="text/css">
+			
+/* LAYOUT HEIGHTS - keep in each ezine header */
+			
+			#main {
+				height: 6300px;
+			}
+			
+			#textbg {
+				height: 6100px;
+			}
+						
+			#borderr { /* textbg - 160px */
+				height: 5940px;
+			}
+						
+			#borderl { /* textbg - 160px */
+				height: 5940px;
+			}
+						
+			#borderb { /* textbg + 420px */
+				top: 6520px;
+			}
+			
+			body {
+	text-shadow: 0px 0px;
+	letter-spacing: 0px;
+	line-height: 20px;
+	background-image: url("http://www.drawingfree.com/Ezine/Media/BG.jpg");
+	font-family: "Verdana",sans-serif;
+	font-size: 13px;
+	text-align: left;
+	color: #2A1300;
+}
+
+h1 {
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "Verdana";
+	text-align: left;
+	padding-left: 140px;
+	padding-bottom: 0px;
+	font-style: italic;
+	color: #7d5129;
+}
+
+h2 {
+	padding-top: 15px;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-family: "Helvetica Neue";
+	text-align: left;
+	font-style: normal;
+	color: #01578a;
+}
+
+a {
+	color: #01578a;
+	text-decoration: none;
+	font-size: 14px;
+	border: none;
+}
+
+img {
+	border: none;
+}
+
+a:hover {
+	color: #01578a;
+	text-decoration: underline;
+	font-size: 14px;
+}
+
+/* make sure main is longer than text div */
+
+#main {
+	width: 700px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-top: 0px;
+	margin: auto;
+	position: relative;
+}
+
+#header {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+}
+
+#content_header {
+	width: 530px;
+}
+
+#text {
+	position: absolute;
+	top: 460px;
+	left: 45px;
+	width: 640px;
+	z-index: 1;
+	color: #2A1300;
+}
+
+/* size to text div */
+
+#textbg {
+	position: absolute;
+	top: 430px;
+	left: 25px;
+	width: 690px;
+	z-index: 0;
+	background-color: white;
+}
+
+/* size to text div minus 850 */
+
+#borderr {
+	position: absolute;
+	top: 580px;
+	left: 708px;
+	width: 30px;
+	background-image: url(http://www.drawingfree.com/Ezine/Media/border_r.jpg);
+	background-repeat: repeat-y;			
+	z-index: 2;
+}
+
+/* size to text div minus 850 */
+
+#borderl {
+	position: absolute;
+	top: 580px;
+	left: 8px;
+	width: 30px;
+	background-image: url(http://www.drawingfree.com/Ezine/Media/border_l.jpg);
+	background-repeat: repeat-y;			
+	z-index: 2;
+}
+
+/* top to main div minus 70 */
+
+#borderb {
+	position: absolute;
+	left: 10px;
+	width: 720px;
+	height: 50px;
+	background-image: url(http://www.drawingfree.com/Ezine/Media/border_b.jpg);
+	background-repeat: no-repeat;			
+	z-index: 2;
+}
+
+#closer {
+	position: relative;
+	font-size: 11px;
+	background-color: #C9CACA;
+	padding: 20px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #233a25;
+}
+
+#vol {
+	position: absolute;
+	z-index: 2;
+	left: 40px;
+	top: 90px;
+	font-family: "Helvetica Neue",sans-serif;
+	letter-spacing: 2px;
+	font-size: 16px;
+	color: #B96E05;
+}
+
+#signup {
+	position: absolute;
+	z-index: 2;
+	left: 65px;
+	top: 470px;
+}
+
+#signup img {
+
+}
+
+#social {
+	position: absolute;
+	z-index: 5;
+	left: 0px;
+	top: -35px;
+}
+
+#sitelink {
+	display: none;
+}
+
+#sitelink a {
+	color: #72b5e6;
+}
+
+#feedback {
+	width: 400px;
+	padding: 5px;
+	font-size: 12px;
+	font-style: italic;
+	letter-spacing: 0px;
+	color: white;
+	background-color: #d98343;
+	border: 2px solid #eca86b;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+
+.video {
+	float: right;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-top: 32px;
+}
+
+.still {
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+.still p {
+	padding-top: 0px;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	
+}
+
+.stillcaption {
+	padding-top: 15px;
+	padding-bottom: 0px;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-family: "Helvetica Neue";
+	text-align: center;
+	font-style: normal;
+	color: #01578a;
+}
+
+.image_container {
+	width: 640px;
+	padding-bottom: 30px;
+}
+
+.image {
+	float: right;
+}
+
+.image_text {
+	padding-top: 0px;
+	min-height: 350px;
+}
+
+.image_short {
+	padding-left: 60px;
+}
+
+.image_text_short {
+	
+}
+
+.bullet {
+	float: left;
+	padding-right: 10px;
+}
+
+.number {
+	font-size: 30px;
+	color: #01578a;
+	padding-right: 8px;
+}
+	
+.divider {
+	text-align: center;
+	padding-bottom: 25px;
+	padding-top: 20px;
+}
+
+			
+		</style>
+		
+	</head>
+	<body style="text-shadow: 0px 0px; letter-spacing: 0px; line-height: 20px; background-image: url('http://www.drawingfree.com/Ezine/Media/BG.jpg'); font-family: 'Verdana',sans-serif; font-size: 13px; text-align: left; color: #2A1300;">
+		<div id="sitelink" align="center" style="color: white; display: none; text-align: center;">Touble viewing this email? <a href="http://www.drawingfree.com/Ezine/ezine3.html" style="font-size: 14px; border: none; text-decoration: none; color: #72b5e6;">CLICK HERE</a> to view on the web at <a href="http://www.drawingfree.com" style="font-size: 14px; border: none; text-decoration: none; color: #72b5e6;">DrawingFree.com!</a></div>
+		<div id="main" style="position: relative; margin: auto; padding: 0px 20px 20px; height: 7000px; width: 700px;">
+		
+			<div id="signup" style="position: absolute; z-index: 2; left: 65px; top: 470px;">
+				<a href="http://www.drawingfree.com/index.php?signup=1" title="Join Us" target="_blank" alt="Join Us" style="color: #01578a; text-decoration: none; font-size: 14px; border: none;"><img src="http://www.drawingfree.com/Ezine/Media/icon_signup.png" style="border: none;" /></a>
+			</div>
+				
+			<div id="vol" style="position: absolute; z-index: 2; left: 40px; top: 90px; font-family: 'Helvetica Neue',sans-serif; letter-spacing: 2px; font-size: 16px; color: #B96E05;">Issue 5</div>
+			
+			<div id="header" style="position: absolute; top: 0px; left: 0px; z-index: 1;">
+				<img src="http://www.drawingfree.com/Ezine/Media/header.jpg" alt="header" style="border: none;" />
+			</div>
+			<div id="text" style="position: absolute; top: 460px; left: 45px; width: 640px; z-index: 1; color: #2A1300;">
+			<p>&nbsp;</p>
+			
+<!-- start social media 1 -->
+				<div id="social" style="position: absolute; z-index: 5; left: 0px; top: -35px;">
+				<table cellspacing="0" cellpadding="0">
+				<tr>
+				 <td><a href="http://maildogmanager.com/refer.html?client=drawingfree&campaign=5&from_email=##L@##H" title="Send to a Friend" target="_blank" alt="Send to a Friend" style="color: #01578a; text-decoration: none; font-size: 14px; border: none;"><img src="http://www.drawingfree.com/Ezine/Media/icon_friend_on.png" border="0" style="border: none;" width="110px" /></a></td>
+				 <td style="padding-left: 10px;"><a href="http://www.facebook.com/sharer.php?u=http%3a%2f%2fwww.drawingfree.com/Ezine/ezine2.html" title="Facebook" target="_blank" alt="Facebook" style="color: #01578a; text-decoration: none; font-size: 14px; border: none;"><img src="http://www.drawingfree.com/Ezine/Media/icon_fb.png" border="0" style="border: none;" width="65px" /></a></td>
+				
+				</tr>
+				</table>
+				</div>
+<!-- end social media 1 -->
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<h1 align="left" style="font-size: 20px; font-weight: bold; font-family: 'Verdana'; text-align: left; padding-left: 140px; padding-bottom: 0px; font-style: italic; color: #7d5129;">Drawing Fall Leaves <span style="font-size: 14px;">(part one)</span></h1>
+
+<p>&nbsp;</p>
+
+
+<h2 align="left" style="padding-top: 15px; font-size: 16px; text-transform: uppercase; font-weight: normal; font-family: 'Helvetica Neue'; text-align: left; font-style: normal; color: #01578a;">Fall Leaves or Any Leaf</h2>
+
+
+				
+<p><div class="bullet" style="float: left; padding-right: 10px;"><img src="http://www.drawingfree.com/Ezine/Media/handnpen_orange.gif" height="55" alt="handnpen" style="border: none;" width="56" /></div>Any leaf will provide a wonderful drawing study.  The structure of a leaf with its central veins makes drawing the leaf an easy and instructive drawing experience.  A fall leaf especially is an amazing gift of color.</p>
+
+<!-- VIDEO 1, widescreen -->
+<div class="video" style="padding: 32px 20px 10px; float: right;">
+	<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://macromedia.com/cabs/swflash.cab#version=6,0,0,0" ID=flaMovie width=436 height=245>
+		<param name="movie" value="http://www.drawingfree.com/Ezine/Videos/flash/player.swf">
+		<param name="bgcolor" value="white" />
+		<param name="flashvars" value="file=http://www.drawingfree.com/Ezine/Videos/Ezine_5/1.flv&image=http://www.drawingfree.com/Ezine/Videos/Ezine_5/image_1.jpg" />
+		<embed src="http://www.drawingfree.com/Ezine/Videos/flash/player.swf" width="436px" height="245px" flashVars="file=http://www.drawingfree.com/Ezine/Videos/Ezine_5/1.flv&image=http://www.drawingfree.com/Ezine/Videos/Ezine_5/image_1.jpg" bgcolor="white" type="application/x-shockwave-flash" />
+	</object>
+</div>
+
+<p>Although very simple, the set-up of your still life with a fall leaf or a green leaf is important.  Be sure to put a piece of white paper down on your table just above your drawing paper or pad.  Lay the leaf onto the white paper and check to see if the light that is surrounding your area is casting some shadows from the leaf.  If you need to change the light to make good shadows, change where you are set-up to draw or adjust the light if possible to have some shadows cast where the leaf blocks the light.</p>
+
+<p>Determine where you will actually draw the leaf on the paper by temporarily moving the leaf onto your drawing paper.  Determine where the center of the leaf will be on your drawing paper.   Experiment by moving the leaf to find where you want the center stem of the leaf to be on your drawing paper.  Make a note of this with one or two very small marks on your drawing paper that will still show and have meaning for you when you move the leaf back to the white paper.  When you have finished making your placement notations move the leaf back onto the white paper above your drawing paper.</p>
+
+<!-- DIVIDER -->
+<div class="divider" align="center" style="text-align: center; padding-bottom: 25px; padding-top: 20px;">
+	<img src="http://www.drawingfree.com/Ezine/Media/divider.jpg" height="55" alt="divider" style="border: none;" width="305" />
+</div>
+
+<h2 align="left" style="padding-top: 15px; font-size: 16px; text-transform: uppercase; font-weight: normal; font-family: 'Helvetica Neue'; text-align: left; font-style: normal; color: #01578a;">First in GRAPHITE</h2>
+
+<p><div class="bullet" style="float: left; padding-right: 10px;"><img src="http://www.drawingfree.com/Ezine/Media/handnpen_red.gif" height="55" alt="handnpen" style="border: none;" width="56" /></div>We will draw this initial leaf drawing in <a href="http://www.drawingfree.com/index.php?frame=glossary&word=pencils" target="_blank" style="color: #01578a; text-decoration: none; font-size: 14px; border: none;">graphite</a> or with a regular pencil.  I am using a <a href="http://www.drawingfree.com/index.php?frame=glossary&word=pencils" target="_blank" style="color: #01578a; text-decoration: none; font-size: 14px; border: none;">number 4B drawing pencil</a> -- but you could use any pencil -- including the typical "#2 yellow pencil" that is kind of universally available.  In other words, any pencil is fine.  To first make a very light drawing in graphite use a much harder pencil like a 3H or 4H.  Drawing lightly will (among other advantages) allow you to later layer on top of light amounts of graphite with colored pencil.   The darker graphite (4B, 6B and up) are too dark and too oily to take colored pencil on top of it -- unless you would use a kneaded eraser to erase most of what you had drawn OFF your paper before starting with colored pencil. Drawing lightly will also allow you to effortlessly erase out any marks that you don't want to keep.  I am using the 4B pencil so that even though I am using almost no pressure you can still see the marks that I am making.   In your own studio setting you will be able to see marks that are lighter than I am making here.   You can use a darker pencil for now that will allow you to more easily see what you are drawing.</p>
+
+<p>Let's call this is an <a href="http://www.drawingfree.com/index.php?frame=glossary&word=study" target="_blank" style="color: #01578a; text-decoration: none; font-size: 14px; border: none;">exploratory drawing</a>.  You are just experimenting with the drawing to find out what is actually here in this leaf and how you will handle it.  Don't think of it as a final drawing -- although you may be happy with it in any case.  Thus, we CAN use a darker pencil while we are just experimenting and fooling around.  You can call an exploratory drawing a study, a <a href="http://www.drawingfree.com/index.php?frame=glossary&word=preparatory_drawing" target="_blank" style="color: #01578a; text-decoration: none; font-size: 14px; border: none;">preparatory drawing</a> or an experimental drawing.  We are just keeping this initial experiment in the <a href="http://www.drawingfree.com/index.php?frame=glossary&word=low_stakes" target="_blank" style="color: #01578a; text-decoration: none; font-size: 14px; border: none;">"low stakes"</a> mode while we learn this method of using the veins of the leaf to very easily lay out the leaf on your paper.</p>
+
+<div class="stillcaption" align="center" style="padding-top: 15px; padding-bottom: 0px; font-size: 14px; text-transform: uppercase; font-weight: normal; font-family: 'Helvetica Neue'; text-align: center; font-style: normal; color: #01578a;">
+	 The view of my leaf from where I am drawing
+</div>
+<div class="still" align="center" style="text-align: center; padding-bottom: 15px;">
+	<p style="padding-top: 0px; margin-top: 0px; padding-bottom: 0px; margin-bottom: 0px;"><img src="http://www.drawingfree.com/Ezine/Videos/Ezine_5/leaf.jpg" style="border: none;" /></p>
+</div>
+
+<p>In subsequent drawings with graphite or with colored pencil you will want to keep your "vein lines" VERY LIGHT.  Usually the veins are LGHTER in value and color than the rest of the leaf.  However, if you choose a dry leaf to draw -- the veins on a dry leaf can be darker than the rest of the leaf.  Check this out on your leaf to see if you have light veins or darker veins.  To draw the lighter central veins with graphite keep the lines very light (no pressure) so that you will be able to erase them back to a lighter value with your kneaded eraser later if you want.  When you do draw the leaf with colored pencils use as light a yellow as you can see.  Easy does it.  Draw as lightly as you can!  Drawing lightly allows for an easy adjustment of your drawing as you proceed with your drawing.</p>
+
+<!-- DIVIDER -->
+<div class="divider" align="center" style="text-align: center; padding-bottom: 25px; padding-top: 20px;">
+	<img src="http://www.drawingfree.com/Ezine/Media/divider.jpg" height="55" alt="divider" style="border: none;" width="305" />
+</div>
+
+<h2 align="left" style="padding-top: 15px; font-size: 16px; text-transform: uppercase; font-weight: normal; font-family: 'Helvetica Neue'; text-align: left; font-style: normal; color: #01578a;">First the Veins</h2>
+
+<!-- VIDEO 2, widescreen -->
+<div class="video" style="padding: 32px 20px 10px; float: right;">
+	<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://macromedia.com/cabs/swflash.cab#version=6,0,0,0" ID=flaMovie width=436 height=245>
+		<param name="movie" value="http://www.drawingfree.com/Ezine/Videos/flash/player.swf">
+		<param name="bgcolor" value="white" />
+		<param name="flashvars" value="file=http://www.drawingfree.com/Ezine/Videos/Ezine_5/2.flv&image=http://www.drawingfree.com/Ezine/Videos/Ezine_5/image_2.jpg" />
+		<embed src="http://www.drawingfree.com/Ezine/Videos/flash/player.swf" width="436px" height="245px" flashVars="file=http://www.drawingfree.com/Ezine/Videos/Ezine_5/2.flv&image=http://www.drawingfree.com/Ezine/Videos/Ezine_5/image_2.jpg" bgcolor="white" type="application/x-shockwave-flash" />
+	</object>
+</div>
+
+<p><div class="bullet" style="float: left; padding-right: 10px;"><img src="http://www.drawingfree.com/Ezine/Media/handnpen_beige.gif" height="55" alt="handnpen" style="border: none;" width="56" /></div>That said, we are ready to begin drawing!  First draw the central vein or veins of the leaf.  Always start in the center of the leaf and work out to the edges.  Start drawing the central vein at the bottom of the leaf.</p>
+
+<p>Next, draw the smaller veins that come off the main vein or veins.  Constantly return to the center of the leaf and then work out to the edges of the leaf following the veins.  Where you place the smaller veins will determine the shape of the leaf.  Start each vein off of the central vein and take them out to the edge of the leaf.  Do this for the whole leaf. Control any urges you may have to outline the leaf.  Looking realistically at the leaf you will see that it does NOT have a darker outline around the edge of the leaf.  Resist any desires you may have to make the edges of the leaf with dark outlines.  Instead of drawing the edge of the leaf as a line that works its way around the edge of the leaf, you will get to your edge by drawing from your central vein or veins lightly out to the edges of the leaf.</p>
+
+<!-- VIDEO 3, widescreen -->
+<div class="video" style="padding: 32px 20px 10px; float: right;">
+	<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://macromedia.com/cabs/swflash.cab#version=6,0,0,0" ID=flaMovie width=436 height=245>
+		<param name="movie" value="http://www.drawingfree.com/Ezine/Videos/flash/player.swf">
+		<param name="bgcolor" value="white" />
+		<param name="flashvars" value="file=http://www.drawingfree.com/Ezine/Videos/Ezine_5/3.flv&image=http://www.drawingfree.com/Ezine/Videos/Ezine_5/image_3.jpg" />
+		<embed src="http://www.drawingfree.com/Ezine/Videos/flash/player.swf" width="436px" height="245px" flashVars="file=http://www.drawingfree.com/Ezine/Videos/Ezine_5/3.flv&image=http://www.drawingfree.com/Ezine/Videos/Ezine_5/image_3.jpg" bgcolor="white" type="application/x-shockwave-flash" />
+	</object>
+</div>
+
+<p><div class="bullet" style="float: left; padding-right: 10px;"><img src="http://www.drawingfree.com/Ezine/Media/handnpen_orange.gif" height="55" alt="handnpen" style="border: none;" width="56" /></div>Once your veins are lightly drawn out to the edges, you can start to apply a light coat of graphite that you spread from the center out.  Work to look at the leaf where you are drawing it on your paper.  Watch how it as you draw and grow it in your drawing out to the edge of the leaf.  Keep contact with the leaf with your eyes looking more at the leaf than at your paper.  Keep your physical contact with the leaf with your eyes and with your pencil as if it were touching the leaf.   You are drawing on the paper but while drawing pretend that you feel as if you are drawing directly on the surface of the leaf.  Keep your connection constant between your leaf and your drawing by keeping your pencil lightly touching the paper at all times.  Don't jump around on either the leaf you are drawing or the leaf you are seeing.  Work from the center out and then with very light pressure move your pencil (while still on the paper) back to the center and then draw again working out from the center to the edges.</p>
+
+<p>When using fall leaves ignore any black or dark spots that have turned up on the leaf.  The dark spots are easy for you to spot.  These little identifiable details make you feel like there is something that you can easily see and easily draw.  Resist any temptation to draw the dark spots.  Why?  Because they will take away the attention from the whole of the leaf.   Details such a leaf spots that are unrelated to the form of the leaf do not contribute to the overall sensation of the leaf.  Black spots or outstanding details such as these will distract the viewer.   Details such as these that are just surface blemishes will become too prominent in your drawing.  Rather than staying a very minor part of the leaf (because they are dark) they will steal the show and disrupt the flow.  Some details -- especially when overly emphasized -- will take away from your drawing.</p>
+
+<p>Be sure to draw the stem of the leaf.  Just use one light line for the center of the stem rather than outlining the stem.  Even though the stem is usually very thin you want to carefully build it out from the center using small light strokes to make the form of the stem with values that match the values of the stem.</p>
+
+<!-- DIVIDER -->
+<div class="divider" align="center" style="text-align: center; padding-bottom: 25px; padding-top: 20px;">
+	<img src="http://www.drawingfree.com/Ezine/Media/divider.jpg" height="55" alt="divider" style="border: none;" width="305" />
+</div>
+
+<h2 align="left" style="padding-top: 15px; font-size: 16px; text-transform: uppercase; font-weight: normal; font-family: 'Helvetica Neue'; text-align: left; font-style: normal; color: #01578a;">Then the Shadows</h2>
+
+<p><div class="bullet" style="float: left; padding-right: 10px;"><img src="http://www.drawingfree.com/Ezine/Media/handnpen_gold.gif" height="55" alt="handnpen" style="border: none;" width="56" /></div>Way before you finish your drawing of the leaf -- START your shadow areas.  NOTE: Do NOT outline the shadows.  Do make the shadows very light to start.  Stop thinking of shadows as being black.  A black shadow will NOT stay UNDER the leaf.  (It will surround the leaf and pop forward -- go ahead and try it and see how this happens.)  So take a close look at the values of your shadows as they are.   Keep your shadows LIGHTER than the leaf -- at least in your beginning stages of lightly drawing in the shadows.</p>
+
+<!-- VIDEO 4, widescreen -->
+<div class="video" style="padding: 32px 20px 10px; float: right;">
+	<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://macromedia.com/cabs/swflash.cab#version=6,0,0,0" ID=flaMovie width=436 height=245>
+		<param name="movie" value="http://www.drawingfree.com/Ezine/Videos/flash/player.swf">
+		<param name="bgcolor" value="white" />
+		<param name="flashvars" value="file=http://www.drawingfree.com/Ezine/Videos/Ezine_5/4.flv&image=http://www.drawingfree.com/Ezine/Videos/Ezine_5/image_4.jpg" />
+		<embed src="http://www.drawingfree.com/Ezine/Videos/flash/player.swf" width="436px" height="245px" flashVars="file=http://www.drawingfree.com/Ezine/Videos/Ezine_5/4.flv&image=http://www.drawingfree.com/Ezine/Videos/Ezine_5/image_4.jpg" bgcolor="white" type="application/x-shockwave-flash" />
+	</object>
+</div>
+
+<p>Start your shadows by lightly drawing outward from the edge of the leaf and NOT leaving a white space between the leaf and the shadow.  There is NOT a white space between the leaf and the shadow underneath the leaf.  Be sure to not put any dividing line or lines between the leaf and the shadow (a white line or a dark line).  Check to see if you are doing this.  This is a very automatic approach that just sort of happens in the beginning stages of drawing shadows that come from underneath a leaf.  Because they come from under the leaf -- the shadows on the paper butt up to the leaf.  Work outward from "under your leaf" to the very light edges of the shadow.</p>
+
+<p>Look closely at the edges of the shadows to see how they actually are.  The farther a shadow (cast on the white paper) is away from the thing that is blocking the light (the leaf) then the fuzzier the edge of the shadow will be.   Conversely, the closer that the shadow is to what is blocking the light (the leaf) then the crisper the edge of the shadow will be near the leaf.  Be sure to check out the actual edges of all the shadows.   Really look and really see.   Be on the lookout for going on automatic and drawing what you think you see.</p>
+
+<p><div class="bullet" style="float: left; padding-right: 10px;"><img src="http://www.drawingfree.com/Ezine/Media/handnpen_blue.gif" height="55" alt="handnpen" style="border: none;" width="56" /></div>Now that you know how to work this method of drawing the leaf by starting with the stem and the veins and the shadow you can go ahead and finish your drawing.  Be sure to use a kneaded eraser to remove any values that got too dark or any marks that you don't want.   Don't worry about getting everything just right.  There is no way that you can draw everything that is there in the leaf.  You are using your leaf to make a drawing and your leaf will soon dry up and go away.   All that will remain is your drawing of the leaf as you saw it and as you drew it.  Enjoy the process!</p>
+
+<div class="stillcaption" align="center" style="padding-top: 15px; padding-bottom: 0px; font-size: 14px; text-transform: uppercase; font-weight: normal; font-family: 'Helvetica Neue'; text-align: center; font-style: normal; color: #01578a;">
+	 Part TWO: Drawing a Leaf in Color with Colored Pencils
+</div>
+<div class="still" align="center" style="text-align: center; padding-bottom: 15px;">
+	<p style="padding-top: 0px; margin-top: 0px; padding-bottom: 0px; margin-bottom: 0px;"><img src="http://www.drawingfree.com/Ezine/Videos/Ezine_5/part2.jpg" style="border: none;" /></p>
+</div>
+
+
+<div class="divider" align="center" style="text-align: center; padding-bottom: 25px; padding-top: 20px;">
+	<img src="http://www.drawingfree.com/Ezine/Media/divider.jpg" height="55" alt="divider" style="border: none;" width="305" />
+</div>
+
+<div id="feedback" align="center" style="width: 400px; font-size: 12px; font-style: italic; padding: 5px; letter-spacing: 0px; color: white; background-color: #d98343; border: 2px solid #eca86b; text-align: center; margin-left: auto; margin-right: auto; margin-bottom: 20px;">
+	How are we doing? <a href="mailto:drawingfree@mac.com?subject=Here's some feedback for your ezine!" style="color: #01578a; text-decoration: none; font-size: 14px; border: none;">Mail us some feedback</a> on our ezine.
+</div>
+
+<p><b>For more information on Margaret Welty go to: <a href="http://www.margaretwelty.com" target="_blank" style="color: #01578a; text-decoration: none; font-size: 14px; border: none;">www.margaretwelty.com</a> -- but first <a href="http://drawingfree.com/index.php?signup=1" style="color: #01578a; text-decoration: none; font-size: 14px; border: none;">SIGN-UP HERE</a> FOR THE DRAWINGFREE EZINE.</b></p>
+
+<p align="center" style="text-align: center;"><b>Copies of each issue for DrawingFree Ezine can be found on the DrawingFree Web-site:<br /> <a href="http://www.drawingfree.com/index.php?frame=ezine" target="_blank" style="font-size: 14px; border: none; text-decoration: none; color: #B96E05;">www.drawingfree.com</a></b></p>
+
+<p align="center" style="font-size: 11px; text-align: center;"><i>Copyright 2010 Margaret Welty.  All Rights Reserved.  Permission is granted to link to this site, information or to quote WITH author notation: "From the Drawing Free Ezine Created by Margaret Welty at www.drawingfree.com".</i></p>
+
+<div class="divider" align="center" style="text-align: center; padding-bottom: 25px; padding-top: 20px;">
+	<img src="http://www.drawingfree.com/Ezine/Media/divider.jpg" height="55" alt="divider" style="border: none;" width="305" />
+</div>
+
+<div id="closer" style="position: relative; padding: 20px; font-size: 11px; background-color: #C9CACA; border-style: solid; border-width: 1px; border-color: #233a25;">
+	<div id="drawingdog" style="position: absolute; top: 85px; left: 515px;">
+		<img src="http://www.drawingfree.com/Ezine/Media/drawing_dog_ezine.png" height="185" style="border: none;" />
+	</div>
+	
+	<div id="closertext" style="padding-left: 20px; width: 480px;">
+		<p align="center">
+		<div id="mwpic" style="float: left; border-width: 1px; border-style: solid; margin-right: 20px; margin-top: 5px;">
+			<img src="http://www.drawingfree.com/Ezine/Media/mwpic.jpg" height="150px" style="border: none;" />
+		</div>
+		
+		<b><span style="font-size: 13px;">DRAWING FREE - ART FROM THE START</span> <br /> Presented by Margaret Welty and the Drawing Dog</b>
+		</p>
+		
+		
+		<p>
+		Each lesson presented in the Drawing Free Ezine gives you ways to massage your own 
+		neurological white matter to further form and train your ever transitioning ART BRAIN.  
+		Remember that the key is to DRAW, play and be easy with yourself.  Eliminate any 
+		unrealistic expectations and judgements about your work.  Work to be happy while 
+		you draw!  Draw like a child with no expectations beyond your current beginner's 
+		brain, eyes, hands and heart.  Orient your focus toward the fascination that consumes 
+		a small child upon discovering that she can make her own marks appear.   Make your 
+		own marks appear!!  
+		</p>
+		
+		<p style="padding-left: 110px; font-size: 12px;"><i>Create a chance to draw.  Draw every chance you get.  <br />
+		Make a space to draw.  Draw in every space you make.</i>
+		</p>
+	</div>
+</div>
+				
+			</div>
+			<div id="textbg" style="background-color: white; left: 25px; position: absolute; height: 6100px; z-index: 0; width: 690px; top: 430px;">
+				&nbsp;
+			</div>
+			<div id="borderr" style="position: absolute; left: 708px; background-repeat: repeat-y; height: 5940px; background-image: url(http://www.drawingfree.com/Ezine/Media/border_r.jpg); z-index: 2; top: 580px; width: 30px;">
+				&nbsp;
+			</div>
+			<div id="borderl" style="position: absolute; left: 8px; background-repeat: repeat-y; height: 5940px; background-image: url(http://www.drawingfree.com/Ezine/Media/border_l.jpg); z-index: 2; top: 580px; width: 30px;">
+				&nbsp;
+			</div>
+			<div id="borderb" style="position: absolute; left: 10px; background-repeat: no-repeat; height: 50px; background-image: url(http://www.drawingfree.com/Ezine/Media/border_b.jpg); z-index: 2; top: 6520px; width: 720px;">
+				&nbsp;
+			</div>
+		</div>
+	</body>
+</html>

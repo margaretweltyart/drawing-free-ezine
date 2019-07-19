@@ -1,0 +1,555 @@
+<!--
+ BG COLOR: #4B4B4E;
+ NEW BG COLOR: 637a65;
+ LINK COLOR: #01578A;
+-->
+
+<html> 
+	<head>
+		<title>Drawing Free Ezine 7</title>
+		
+		<link rel="stylesheet" href="css/ezine.css" type="text/css">
+		
+		<style type="text/css">
+			
+/* LAYOUT HEIGHTS - keep in each ezine header */
+			
+			#main {
+				height: 7550px;
+			}
+			
+			#textbg {
+				height: 7080px;
+			}
+						
+			#borderr { /* textbg - 160px */
+				height: 6920px;
+			}
+						
+			#borderl { /* textbg - 160px */
+				height: 6920px;
+			}
+						
+			#borderb { /* textbg + 420px */
+				top: 7500px;
+			}
+			body {
+	text-shadow: 0px 0px;
+	letter-spacing: 0px;
+	line-height: 20px;
+	background-image: url("http://www.drawingfree.com/Ezine/Media/BG.jpg");
+	font-family: "Verdana",sans-serif;
+	font-size: 13px;
+	text-align: left;
+	color: #2A1300;
+}
+
+h1 {
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "Verdana";
+	text-align: left;
+	padding-left: 140px;
+	padding-bottom: 0px;
+	font-style: italic;
+	color: #7d5129;
+}
+
+h2 {
+	padding-top: 15px;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-family: "Helvetica Neue";
+	text-align: left;
+	font-style: normal;
+	color: #01578a;
+}
+
+a {
+	color: #01578a;
+	text-decoration: none;
+	font-size: 14px;
+	border: none;
+}
+
+img {
+	border: none;
+}
+
+a:hover {
+	color: #01578a;
+	text-decoration: underline;
+	font-size: 14px;
+}
+
+/* make sure main is longer than text div */
+
+#main {
+	width: 700px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-top: 0px;
+	margin: auto;
+	position: relative;
+}
+
+#header {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+}
+
+#content_header {
+	width: 530px;
+}
+
+#text {
+	position: absolute;
+	top: 460px;
+	left: 45px;
+	width: 640px;
+	z-index: 1;
+	color: #2A1300;
+}
+
+/* size to text div */
+
+#textbg {
+	position: absolute;
+	top: 430px;
+	left: 25px;
+	width: 690px;
+	z-index: 0;
+	background-color: white;
+}
+
+/* size to text div minus 850 */
+
+#borderr {
+	position: absolute;
+	top: 580px;
+	left: 708px;
+	width: 30px;
+	background-image: url(http://www.drawingfree.com/Ezine/Media/border_r.jpg);
+	background-repeat: repeat-y;			
+	z-index: 2;
+}
+
+/* size to text div minus 850 */
+
+#borderl {
+	position: absolute;
+	top: 580px;
+	left: 8px;
+	width: 30px;
+	background-image: url(http://www.drawingfree.com/Ezine/Media/border_l.jpg);
+	background-repeat: repeat-y;			
+	z-index: 2;
+}
+
+/* top to main div minus 70 */
+
+#borderb {
+	position: absolute;
+	left: 10px;
+	width: 720px;
+	height: 50px;
+	background-image: url(http://www.drawingfree.com/Ezine/Media/border_b.jpg);
+	background-repeat: no-repeat;			
+	z-index: 2;
+}
+
+#closer {
+	position: relative;
+	font-size: 11px;
+	background-color: #C9CACA;
+	padding: 20px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #233a25;
+}
+
+#vol {
+	position: absolute;
+	z-index: 2;
+	left: 40px;
+	top: 90px;
+	font-family: "Helvetica Neue",sans-serif;
+	letter-spacing: 2px;
+	font-size: 16px;
+	color: #B96E05;
+}
+
+#signup {
+	position: absolute;
+	z-index: 2;
+	left: 65px;
+	top: 470px;
+}
+
+#signup img {
+
+}
+
+#social {
+	position: absolute;
+	z-index: 5;
+	left: 0px;
+	top: -35px;
+}
+
+#sitelink {
+	display: none;
+}
+
+#sitelink a {
+	color: #72b5e6;
+}
+
+#feedback {
+	width: 400px;
+	padding: 5px;
+	font-size: 12px;
+	font-style: italic;
+	letter-spacing: 0px;
+	color: white;
+	background-color: #d98343;
+	border: 2px solid #eca86b;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+
+.video {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-top: 32px;
+	width: 436px;
+	margin: auto;
+}
+
+
+.still {
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+.still p {
+	padding-top: 0px;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	
+}
+
+.stillcaption {
+	padding-top: 15px;
+	padding-bottom: 0px;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-family: "Helvetica Neue";
+	text-align: center;
+	font-style: normal;
+	color: #01578a;
+}
+
+.image_container {
+	width: 640px;
+	padding-bottom: 30px;
+}
+
+.image {
+	float: right;
+	margin-left: 5px;
+}
+
+.image_text {
+	padding-top: 0px;
+	min-height: 350px;
+}
+
+.image_short {
+	padding-left: 60px;
+}
+.image_short_vert {
+	padding-left: 140px;
+}
+
+.image_text_short {
+	margin-bottom: 8px;
+}
+
+.bullet {
+	float: left;
+	padding-right: 10px;
+}
+
+.number {
+	font-size: 30px;
+	color: #01578a;
+	padding-right: 8px;
+}
+	
+.divider {
+	text-align: center;
+	padding-bottom: 25px;
+	padding-top: 20px;
+}
+
+.note {
+	font-style: italic;
+	font-size: 11px;
+	line-height: 17px;
+}
+			
+		</style>
+		
+	</head>
+	<body>
+		<div id="sitelink" style="text-align:center;color:white;">Touble viewing this email? <a href="http://www.drawingfree.com/Ezine/ezine7.html">CLICK HERE</a> to view on the web at <a href="http://www.drawingfree.com">DrawingFree.com!</a></div>
+		<div id="main">
+		
+			<div id="signup">
+				<a href="http://www.drawingfree.com/index.php?signup=1" target="_blank" alt="Join Us" title="Join Us"><img src="http://www.drawingfree.com/Ezine/Media/icon_signup.png"></a>
+			</div>
+				
+			<div id="vol">Issue 7</div>
+			
+			<div id="header">
+				<img src="http://www.drawingfree.com/Ezine/Media/header.jpg" alt="header" />
+			</div>
+			<div id="text">
+			<p>&nbsp;</p>
+			
+<!-- start social media 1 -->
+				<div id="social">
+				<table cellspacing="0" cellpadding="0">
+				<tr>
+				 <td><a href="http://maildogmanager.com/refer.html?client=drawingfree&campaign=5&from_email=##L@##H" target="_blank" alt="Send to a Friend" title="Send to a Friend"><img src="http://www.drawingfree.com/Ezine/Media/icon_friend_on.png" width="110px" border="0"></a></td>
+				 <td style="padding-left:10px;"><a href="http://www.facebook.com/sharer.php?u=http%3a%2f%2fwww.drawingfree.com/Ezine/ezine2.html" target="_blank" alt="Facebook" title="Facebook"><img src="http://www.drawingfree.com/Ezine/Media/icon_fb.png" width="65px" border="0"></a></td>
+				
+				</tr>
+				</table>
+				</div>
+<!-- end social media 1 -->
+
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				
+					<h1 style="padding-left:115px;">Drawing Your Hand with Pen, Ink, &amp; Wash</h1>
+<!-- END HEADER SECTION -->
+
+<p><div class="bullet"><img src="http://www.drawingfree.com/Ezine/Media/handnpen_gold.gif" alt="handnpen" width="56" height="55" /></div>"Pen and Ink"  with wash is a very old and very traditional approach to drawing that also teaches lots about painting and ways to use a wide range of values (lights, darks and mid tones).  Using modern pens that have non-permanent and thus "bleeding" inks is a fast, easy and fascinating way to explore what a wash can do when added to an ink drawing.  After you have worked with this you can easily learn to use wash anywhere else that you want.  With these pens we create a wash just by using the pigment that has already been placed on the paper by the pen.  This is also a good introduction to making washes with watercolor.  Note: The ink from these pens makes no claims as to being lightfast or archival.  No worries though as we are just playing around and learning -- not creating our final masterpiece! 
+</p>
+
+<p>This Drawing Free Ezine has two parts.  The first is a series of photos showing the materials and an initial drawing in ink that I did by tracing my right hand and drawing with my left hand.  Scrolling down you will then find a series of short videos showing the whole process from start to finish.  In this second part, I am drawing my left hand with my non-dominant right hand -- much as you might if you are right handed.
+</p>
+
+<!-- DIVIDER -->
+<div class="divider">
+	<img src="http://www.drawingfree.com/Ezine/Media/divider.jpg" alt="divider" width="305" height="55" />
+</div>
+
+<h2>Three Kinds of Pens...</h2>
+
+<div class="image_container">
+	<div class="image">
+		<img src="http://www.drawingfree.com/Ezine/Videos/Ezine_7/image_5.jpg" />
+	</div>
+	<div class="image_text">
+		<p><div class="bullet"><img src="http://www.drawingfree.com/Ezine/Media/handnpen_blue.gif" alt="handnpen" width="56" height="55" /></div><p>Wash or washing means to brush with a thin coat of diluted ink or paint. </p>
+		<p>Paper Mate Flair - Felt Tip<br />
+Pentel EnerGel - Metal Tip<br />
+Pilot Gel Rolling Ball - Fine Point</p>
+		<p>These three pens each work well for ink and wash drawing.  They are great for making lots of drawings and exploring ink and wash.  These pens are NOT permanent markers -- the ink from them can be "washed" over with water from a brush, a sponge or dripped on and the ink will run and become (with the water) a WASH.     The ink comes up from the paper when it water rehydrates the ink.  You can combine this method with additional washes of other ink that you have diluted with water.  You can also use watercolor thinned out with lots of water to make a transparent wash that will carry some color. 
+</p>
+<p>Experiment first with scribbles and doodles and then brush over those with water.  Play and find out what you can do.  Each pen makes grays of different colors.  You can see the differences!  The Flair felt tip pen is more of a red violet.  The Pentel metal tip is more of a blue with tones that lean towards yellow, a bit of violet and thus slight greens at times.  The Pilot rolling ball goes a bit more to the red AND it makes more dots or clumps of ink that show more when they bleed out -- standing out from the lines.  You may choose one over another.  They can also all be used together.  Flair also makes the felt tip in a variety of colors.  See what you can find and play around with them all to see what you like!
+</p>
+	</div>
+</div>
+
+<h2>...Meet Three Kinds of Brushes</h2>
+
+<div class="image_container">
+	<div class="image">
+		<img src="http://www.drawingfree.com/Ezine/Videos/Ezine_7/image_6.jpg" />
+	</div>
+	<div class="image_text">
+		<p><div class="bullet"><img src="http://www.drawingfree.com/Ezine/Media/handnpen_purple.gif" alt="handnpen" width="56" height="55" /></div><p>Here you see the three brushes that I used to brush the clear water on to the paper and into the ink.  I could have just used any ONE of these brushes.  The important part is that the brush be of sufficient quality so that it has SPRING to the brush.  Wet or dry -- when you push on the end of the bristles -- the brush should have a slightly stiff springy feel to it.  The very cheap brushes just bend or collapse and you can't apply pressure to the paper or the ink.  Limp brushes make it next to impossible to move and direct the water.  Very frustrating!   And you might conclude (possibly AGAIN!) that you are not very good at this.  WRONG!  You need a brush that you can push and pull.  Also, when wet,  these brushes  will hold their points (the round ones) or their edge (the flat one).   Usually the brushes that come with an inexpensive water color set are of little or no use.  Get a synthetic, nylon or sablette brush that is not too expensive.  It should cost around $10 or less.  Get a fairly large one so that it will do more for you and so it will hold more water.  The numbers #6 and #10 here refer to their size and are good brush choices.</p>
+	</div>
+</div>
+
+<h2>Application of the Brushes and Water to the Paper and Ink</h2>
+<p><div class="bullet"><img src="http://www.drawingfree.com/Ezine/Media/handnpen_green.gif" alt="handnpen" width="56" height="55" /></div><p>The water will buckle, swell and warp any paper that it touches -- just like a paper towel will swell with water.  Here I just happen to be using a Strathmore medium weight Drawing Paper that is 80 lb. paper.  It is described as an ideal surface for any DRY media, suitable for pen and ink, illustrations and final drawings.  Any paper that is less than 300 lb. paper or heavy "board" backed illustration board WILL buckle with the water.  Buckled paper can be pressed back to flat and also mounted by a professional framer.  I've used this method with my students for fun, exploration and practice just with computer printer paper.  If you get a drawing that you want to frame  you could scan it and print in on the printer paper of your choice -- depending on the printer or copy machine.
+</p>
+
+<!-- CENTERED IMAGE STILL, NO TEXT -->	
+<div class="still">
+	<p><img src="http://www.drawingfree.com/Ezine/Videos/Ezine_7/image_1.jpg" /></p>
+</div>
+
+<!-- CENTERED IMAGE STILL, NO TEXT -->	
+<div class="still">
+	<p><img src="http://www.drawingfree.com/Ezine/Videos/Ezine_7/image_2.jpg" /></p>
+</div>
+
+<!-- CENTERED IMAGE STILL, NO TEXT -->	
+<div class="still">
+	<p><img src="http://www.drawingfree.com/Ezine/Videos/Ezine_7/image_3.jpg" /></p>
+</div>
+
+<!-- CENTERED IMAGE STILL, NO TEXT -->	
+<div class="still">
+	<p><img src="http://www.drawingfree.com/Ezine/Videos/Ezine_7/image_4.jpg" /></p>
+</div>
+
+<!-- DIVIDER -->
+<div class="divider">
+	<img src="http://www.drawingfree.com/Ezine/Media/divider.jpg" alt="divider" width="305" height="55" />
+</div>
+
+<!-- IMAGE STILL CAPTION, CENTERED -->
+<h2>
+	 Ready? Now Let's See It in Action!
+</h2>
+<p><div class="bullet"><img src="http://www.drawingfree.com/Ezine/Media/handnpen_gold.gif" alt="handnpen" width="56" height="55" /></div>In these videos below you will see the creation of the drawing first by tracing around my left hand with the ink pen.  Next you will see clear water brushed onto the ink drawing to create smooth and fluid values of wash.  The result?  A drawing of a hand with shadows in pen and ink with wash!  Be sure to try this several times.  Use this method often for fun and to grow your drawing skills.  Feel free to doodle, make landscapes, draw trees or any other thing that you want (any way you want) in ink and then follow with water to add wonderful gray washes!
+</p>
+
+<br />
+<div class="still">
+	<p>
+		<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://macromedia.com/cabs/swflash.cab#version=6,0,0,0" ID=flaMovie width=400 height=300>
+			<param name="movie" value="http://www.drawingfree.com/Ezine/Videos/flash/player.swf">
+			<param name="bgcolor" value="white" />
+			<param name="flashvars" value="file=http://www.drawingfree.com/Ezine/Videos/Ezine_7/1.flv&image=http://www.drawingfree.com/Ezine/Videos/Ezine_7/1.jpg" />
+			<embed src="http://www.drawingfree.com/Ezine/Videos/flash/player.swf" width="500px" height="375px" flashVars="file=http://www.drawingfree.com/Ezine/Videos/Ezine_7/1.flv&image=http://www.drawingfree.com/Ezine/Videos/Ezine_7/1.jpg" bgcolor="white" type="application/x-shockwave-flash" />
+		</object>
+	</p>
+</div>
+
+<br />
+<div class="still">
+	<p>
+		<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://macromedia.com/cabs/swflash.cab#version=6,0,0,0" ID=flaMovie width=400 height=300>
+			<param name="movie" value="http://www.drawingfree.com/Ezine/Videos/flash/player.swf">
+			<param name="bgcolor" value="white" />
+			<param name="flashvars" value="file=http://www.drawingfree.com/Ezine/Videos/Ezine_7/2.flv&image=http://www.drawingfree.com/Ezine/Videos/Ezine_7/2.jpg" />
+			<embed src="http://www.drawingfree.com/Ezine/Videos/flash/player.swf" width="500px" height="375px" flashVars="file=http://www.drawingfree.com/Ezine/Videos/Ezine_7/2.flv&image=http://www.drawingfree.com/Ezine/Videos/Ezine_7/2.jpg" bgcolor="white" type="application/x-shockwave-flash" />
+		</object>
+	</p>
+</div>
+
+<br />
+<div class="still">
+	<p>
+		<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://macromedia.com/cabs/swflash.cab#version=6,0,0,0" ID=flaMovie width=400 height=300>
+			<param name="movie" value="http://www.drawingfree.com/Ezine/Videos/flash/player.swf">
+			<param name="bgcolor" value="white" />
+			<param name="flashvars" value="file=http://www.drawingfree.com/Ezine/Videos/Ezine_7/3.flv&image=http://www.drawingfree.com/Ezine/Videos/Ezine_7/3.jpg" />
+			<embed src="http://www.drawingfree.com/Ezine/Videos/flash/player.swf" width="500px" height="375px" flashVars="file=http://www.drawingfree.com/Ezine/Videos/Ezine_7/3.flv&image=http://www.drawingfree.com/Ezine/Videos/Ezine_7/3.jpg" bgcolor="white" type="application/x-shockwave-flash" />
+		</object>
+	</p>
+</div>
+
+<br />
+<div class="still">
+	<p>
+		<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://macromedia.com/cabs/swflash.cab#version=6,0,0,0" ID=flaMovie width=400 height=300>
+			<param name="movie" value="http://www.drawingfree.com/Ezine/Videos/flash/player.swf">
+			<param name="bgcolor" value="white" />
+			<param name="flashvars" value="file=http://www.drawingfree.com/Ezine/Videos/Ezine_7/4.flv&image=http://www.drawingfree.com/Ezine/Videos/Ezine_7/4.jpg" />
+			<embed src="http://www.drawingfree.com/Ezine/Videos/flash/player.swf" width="500px" height="375px" flashVars="file=http://www.drawingfree.com/Ezine/Videos/Ezine_7/4.flv&image=http://www.drawingfree.com/Ezine/Videos/Ezine_7/4.jpg" bgcolor="white" type="application/x-shockwave-flash" />
+		</object>
+	</p>
+</div>
+
+<br />
+<div class="still">
+	<p>
+		<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://macromedia.com/cabs/swflash.cab#version=6,0,0,0" ID=flaMovie width=400 height=300>
+			<param name="movie" value="http://www.drawingfree.com/Ezine/Videos/flash/player.swf">
+			<param name="bgcolor" value="white" />
+			<param name="flashvars" value="file=http://www.drawingfree.com/Ezine/Videos/Ezine_7/5.flv&image=http://www.drawingfree.com/Ezine/Videos/Ezine_7/5.jpg" />
+			<embed src="http://www.drawingfree.com/Ezine/Videos/flash/player.swf" width="500px" height="375px" flashVars="file=http://www.drawingfree.com/Ezine/Videos/Ezine_7/5.flv&image=http://www.drawingfree.com/Ezine/Videos/Ezine_7/5.jpg" bgcolor="white" type="application/x-shockwave-flash" />
+		</object>
+	</p>
+</div>
+
+<div class="divider">
+	<img src="http://www.drawingfree.com/Ezine/Media/divider.jpg" alt="divider" width="305" height="55" />
+</div>
+
+<p><b>UPDATE!</b> Want even more on this topic? Check out <a href="http://vimeo.com/23053326" target="_blank">this episode</a> of Margaret's TV show, <i>Art Creativity &amp; You</i>, for a further exploration of ink, pen, and wash techniques!</p>
+
+<!-- FOOTER SECTION -->
+<div class="divider">
+	<img src="http://www.drawingfree.com/Ezine/Media/divider.jpg" alt="divider" width="305" height="55" />
+</div>
+
+<div id="feedback">
+	How are we doing? <a href="mailto:drawingfree@mac.com?subject=Here's some feedback for your ezine!">Mail us some feedback</a> on our ezine.
+</div>
+
+<p><b>For more information on Margaret Welty go to: <a href="http://www.margaretwelty.com" target="_blank">www.margaretwelty.com</a> -- but first <a href="http://drawingfree.com/index.php?signup=1">SIGN-UP HERE</a> FOR THE DRAWINGFREE EZINE.</b></p>
+
+<p style="text-align:center;"><b>Copies of each issue for DrawingFree Ezine can be found on the DrawingFree Web-site:<br /> <a href="http://www.drawingfree.com/index.php?frame=ezine" style="color:#B96E05;" target="_blank">www.drawingfree.com</a></b></p>
+
+<p style="font-size:11px;text-align:center;"><i>Copyright 2010 Margaret Welty.  All Rights Reserved.  Permission is granted to link to this site, information or to quote WITH author notation: "From the Drawing Free Ezine Created by Margaret Welty at www.drawingfree.com".</i></p>
+
+<div class="divider">
+	<img src="http://www.drawingfree.com/Ezine/Media/divider.jpg" alt="divider" width="305" height="55" />
+</div>
+
+<div id="closer">
+	<div id="drawingdog" style="position:absolute;top:85px;left:515px;">
+		<img src="http://www.drawingfree.com/Ezine/Media/drawing_dog_ezine.png" height="185" />
+	</div>
+	
+	<div id="closertext" style="padding-left:20px;width:480px">
+		<p align="center">
+		<div id="mwpic" style="float:left;border-width:1px;border-style:solid;margin-right:20px;margin-top:5px;">
+			<img src="http://www.drawingfree.com/Ezine/Media/mwpic.jpg" height="150px" />
+		</div>
+		
+		<b><span style="font-size:13px;">DRAWING FREE - ART FROM THE START</span> <br /> Presented by Margaret Welty and the Drawing Dog</b>
+		</p>
+		
+		<p>
+		Each lesson presented in the Drawing Free Ezine gives you ways to massage your own 
+		neurological white matter to further form and train your ever transitioning ART BRAIN.  
+		Remember that the key is to DRAW, play and be easy with yourself.  Eliminate any 
+		unrealistic expectations and judgements about your work.  Work to be happy while 
+		you draw!  Draw like a child with no expectations beyond your current beginner's 
+		brain, eyes, hands and heart.  Orient your focus toward the fascination that consumes 
+		a small child upon discovering that she can make her own marks appear.   Make your 
+		own marks appear!!  
+		</p>
+		
+		<p style="padding-left:110px;font-size:12px;"><i>Create a chance to draw.  Draw every chance you get.  <br />
+		Make a space to draw.  Draw in every space you make.</i>
+		</p>
+	</div>
+</div>
+				
+			</div>
+			<div id="textbg">
+				&nbsp;
+			</div>
+			<div id="borderr">
+				&nbsp;
+			</div>
+			<div id="borderl">
+				&nbsp;
+			</div>
+			<div id="borderb">
+				&nbsp;
+			</div>
+		</div>
+	</body>
+</html>

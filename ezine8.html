@@ -1,0 +1,581 @@
+<!--
+ BG COLOR: #4B4B4E;
+ NEW BG COLOR: 637a65;
+ LINK COLOR: #01578A;
+-->
+
+<html> 
+	<head>
+		<title>Drawing Free Ezine 8</title>
+		
+		<link rel="stylesheet" href="css/ezine.css" type="text/css">
+		
+		<style type="text/css">
+			
+/* LAYOUT HEIGHTS - keep in each ezine header */
+			
+			#main {
+				height: 7000px;
+			}
+			
+			#textbg {
+				height: 6440px;
+			}
+						
+			#borderr { /* textbg - 160px */
+				height: 6280px;
+			}
+						
+			#borderl { /* textbg - 160px */
+				height: 6280px;
+			}
+						
+			#borderb { /* textbg + 420px */
+				top: 6860px;
+			}
+			body {
+	text-shadow: 0px 0px;
+	letter-spacing: 0px;
+	line-height: 20px;
+	background-image: url("http://www.drawingfree.com/Ezine/Media/BG.jpg");
+	font-family: "Verdana",sans-serif;
+	font-size: 13px;
+	text-align: left;
+	color: #2A1300;
+}
+
+h1 {
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "Verdana";
+	text-align: left;
+	padding-left: 140px;
+	padding-bottom: 0px;
+	font-style: italic;
+	color: #7d5129;
+}
+
+h2 {
+	padding-top: 15px;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-family: "Helvetica Neue";
+	text-align: left;
+	font-style: normal;
+	color: #01578a;
+}
+
+a {
+	color: #01578a;
+	text-decoration: none;
+	font-size: 14px;
+	border: none;
+}
+
+img {
+	border: none;
+}
+
+a:hover {
+	color: #01578a;
+	text-decoration: underline;
+	font-size: 14px;
+}
+
+/* make sure main is longer than text div */
+
+#main {
+	width: 700px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-top: 0px;
+	margin: auto;
+	position: relative;
+}
+
+#header {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+}
+
+#content_header {
+	width: 530px;
+}
+
+#text {
+	position: absolute;
+	top: 460px;
+	left: 45px;
+	width: 640px;
+	z-index: 1;
+	color: #2A1300;
+}
+
+/* size to text div */
+
+#textbg {
+	position: absolute;
+	top: 430px;
+	left: 25px;
+	width: 690px;
+	z-index: 0;
+	background-color: white;
+}
+
+/* size to text div minus 850 */
+
+#borderr {
+	position: absolute;
+	top: 580px;
+	left: 708px;
+	width: 30px;
+	background-image: url(http://www.drawingfree.com/Ezine/Media/border_r.jpg);
+	background-repeat: repeat-y;			
+	z-index: 2;
+}
+
+/* size to text div minus 850 */
+
+#borderl {
+	position: absolute;
+	top: 580px;
+	left: 8px;
+	width: 30px;
+	background-image: url(http://www.drawingfree.com/Ezine/Media/border_l.jpg);
+	background-repeat: repeat-y;			
+	z-index: 2;
+}
+
+/* top to main div minus 70 */
+
+#borderb {
+	position: absolute;
+	left: 10px;
+	width: 720px;
+	height: 50px;
+	background-image: url(http://www.drawingfree.com/Ezine/Media/border_b.jpg);
+	background-repeat: no-repeat;			
+	z-index: 2;
+}
+
+#closer {
+	position: relative;
+	font-size: 11px;
+	background-color: #C9CACA;
+	padding: 20px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #233a25;
+}
+
+#vol {
+	position: absolute;
+	z-index: 2;
+	left: 40px;
+	top: 90px;
+	font-family: "Helvetica Neue",sans-serif;
+	letter-spacing: 2px;
+	font-size: 16px;
+	color: #B96E05;
+}
+
+#signup {
+	position: absolute;
+	z-index: 2;
+	left: 65px;
+	top: 470px;
+}
+
+#signup img {
+
+}
+
+#social {
+	position: absolute;
+	z-index: 5;
+	left: 0px;
+	top: -35px;
+}
+
+#sitelink {
+	display: none;
+}
+
+#sitelink a {
+	color: #72b5e6;
+}
+
+#feedback {
+	width: 400px;
+	padding: 5px;
+	font-size: 12px;
+	font-style: italic;
+	letter-spacing: 0px;
+	color: white;
+	background-color: #d98343;
+	border: 2px solid #eca86b;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+
+.video {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-top: 32px;
+	width: 436px;
+	margin: auto;
+}
+
+
+.still {
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+.still p {
+	padding-top: 0px;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	
+}
+
+.stillcaption {
+	padding-top: 15px;
+	padding-bottom: 0px;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-family: "Helvetica Neue";
+	text-align: center;
+	font-style: normal;
+	color: #01578a;
+}
+
+.image_container {
+	width: 640px;
+	padding-bottom: 30px;
+}
+
+.image {
+	float: right;
+	margin-left: 5px;
+}
+
+.image_text {
+	padding-top: 0px;
+	min-height: 350px;
+}
+
+.image_short {
+	padding-left: 60px;
+}
+.image_short_vert {
+	padding-left: 140px;
+}
+
+.image_text_short {
+	margin-bottom: 8px;
+}
+
+.bullet {
+	float: left;
+	padding-right: 10px;
+}
+
+.number {
+	font-size: 30px;
+	color: #01578a;
+	padding-right: 8px;
+}
+	
+.divider {
+	text-align: center;
+	padding-bottom: 25px;
+	padding-top: 20px;
+}
+
+.note {
+	font-style: italic;
+	font-size: 11px;
+	line-height: 17px;
+}
+			
+		</style>
+		
+	</head>
+	<body>
+		<div id="sitelink" style="text-align:center;color:white;">Touble viewing this email? <a href="http://www.drawingfree.com/Ezine/ezine8.html">CLICK HERE</a> to view on the web at <a href="http://www.drawingfree.com">DrawingFree.com!</a></div>
+		<div id="main">
+		
+			<div id="signup">
+				<a href="http://www.drawingfree.com/index.php?signup=1" target="_blank" alt="Join Us" title="Join Us"><img src="http://www.drawingfree.com/Ezine/Media/icon_signup.png"></a>
+			</div>
+				
+			<div id="vol">Issue 8</div>
+			
+			<div id="header">
+				<img src="http://www.drawingfree.com/Ezine/Media/header.jpg" alt="header" />
+			</div>
+			<div id="text">
+			<p>&nbsp;</p>
+			
+<!-- start social media 1 -->
+				<div id="social">
+				<table cellspacing="0" cellpadding="0">
+				<tr>
+				 <td><a href="http://maildogmanager.com/refer.html?client=drawingfree&campaign=5&from_email=##L@##H" target="_blank" alt="Send to a Friend" title="Send to a Friend"><img src="http://www.drawingfree.com/Ezine/Media/icon_friend_on.png" width="110px" border="0"></a></td>
+				 <td style="padding-left:10px;"><a href="http://www.facebook.com/sharer.php?u=http%3a%2f%2fwww.drawingfree.com/Ezine/ezine2.html" target="_blank" alt="Facebook" title="Facebook"><img src="http://www.drawingfree.com/Ezine/Media/icon_fb.png" width="65px" border="0"></a></td>
+				
+				</tr>
+				</table>
+				</div>
+<!-- end social media 1 -->
+
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				
+					<h1 style="padding-left:180px;">The Power of Formats!</h1>
+<!-- END HEADER SECTION -->
+<br />
+<!-- IMAGE WITH TEXT -->
+<div class="image_container">
+	<div class="image">
+		<img src="http://www.drawingfree.com/Ezine/Videos/Ezine_8/still_1.jpg" />
+	</div>
+	<div class="image_text">
+		<p><div class="bullet"><img src="http://www.drawingfree.com/Ezine/Media/handnpen_red.gif" alt="handnpen" width="56" height="55" /></div>You can take your drawings or watercolor paintings that you may not be entirely happy with and change their formats. Cropping off some of the painting or drawing either by tearing them or matting them into different compositions will change them dramatically.  Paintings on paper or drawings on paper that are just so-so, blah or boring can come to life with new formats that change and recharge their <a href="http://drawingfree.com/glossary/content/" target="_blank">content</a>.  So when you paint or draw something that isn't really exciting - change it with a new format.  You might even end up with several separate pieces that your eye, your body and your art brain LIKES.</p>
+		<p>Note: It's good to look at your work upside down and from all sides.  Some of these videos were photographed from the side - so you can look at them this way or turn your head to see them vertically.  Composition is based on design first and foremost and subject matter (the tree, a cat or the sun) is "no matter" if the composition doesn't sing when viewed from any and all directions.</p>
+		<p>Enjoy and send your ripped fragments to friends.  Or use your extra pieces in <a href="http://drawingfree.com/gallery/2011/05/11/ripped-paper/" target="_blank">new collaged compositions</a> or paint more on each and make them into new little paintings!</p>
+	</div>
+</div>
+<div class="still">
+	<p><img src="http://www.drawingfree.com/Ezine/Videos/Ezine_8/still_4.jpg" /></p>
+</div>
+
+
+<!-- DIVIDER -->
+<div class="divider">
+	<img src="http://www.drawingfree.com/Ezine/Media/divider.jpg" alt="divider" width="305" height="55" />
+</div>
+
+<!-- IMAGE STILL CAPTION, CENTERED -->
+<div class="stillcaption">
+	 The tree...
+</div>
+
+<br />
+<div class="still">
+	<p>
+		<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://macromedia.com/cabs/swflash.cab#version=6,0,0,0" ID=flaMovie width=400 height=300>
+			<param name="movie" value="http://www.drawingfree.com/Ezine/Videos/flash/player.swf">
+			<param name="bgcolor" value="white" />
+			<param name="flashvars" value="file=http://www.drawingfree.com/Ezine/Videos/Ezine_8/1.flv&image=http://www.drawingfree.com/Ezine/Videos/Ezine_8/image_1.jpg" />
+			<embed src="http://www.drawingfree.com/Ezine/Videos/flash/player.swf" width="500px" height="375px" flashVars="file=http://www.drawingfree.com/Ezine/Videos/Ezine_8/1.flv&image=http://www.drawingfree.com/Ezine/Videos/Ezine_8/image_1.jpg" bgcolor="white" type="application/x-shockwave-flash" />
+		</object>
+	</p>
+</div>
+
+<br />
+<div class="still">
+	<p>
+		<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://macromedia.com/cabs/swflash.cab#version=6,0,0,0" ID=flaMovie width=400 height=300>
+			<param name="movie" value="http://www.drawingfree.com/Ezine/Videos/flash/player.swf">
+			<param name="bgcolor" value="white" />
+			<param name="flashvars" value="file=http://www.drawingfree.com/Ezine/Videos/Ezine_8/2.flv&image=http://www.drawingfree.com/Ezine/Videos/Ezine_8/image_2.jpg" />
+			<embed src="http://www.drawingfree.com/Ezine/Videos/flash/player.swf" width="500px" height="375px" flashVars="file=http://www.drawingfree.com/Ezine/Videos/Ezine_8/2.flv&image=http://www.drawingfree.com/Ezine/Videos/Ezine_8/image_2.jpg" bgcolor="white" type="application/x-shockwave-flash" />
+		</object>
+	</p>
+</div>
+
+<!-- DIVIDER -->
+<div class="divider">
+	<img src="http://www.drawingfree.com/Ezine/Media/divider.jpg" alt="divider" width="305" height="55" />
+</div>
+
+<!-- IMAGE STILL CAPTION, CENTERED -->
+<div class="stillcaption">
+	 The cat...
+</div>
+
+<br />
+<div class="still">
+	<p>
+		<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://macromedia.com/cabs/swflash.cab#version=6,0,0,0" ID=flaMovie width=400 height=300>
+			<param name="movie" value="http://www.drawingfree.com/Ezine/Videos/flash/player.swf">
+			<param name="bgcolor" value="white" />
+			<param name="flashvars" value="file=http://www.drawingfree.com/Ezine/Videos/Ezine_8/3.flv&image=http://www.drawingfree.com/Ezine/Videos/Ezine_8/image_3.jpg" />
+			<embed src="http://www.drawingfree.com/Ezine/Videos/flash/player.swf" width="500px" height="375px" flashVars="file=http://www.drawingfree.com/Ezine/Videos/Ezine_8/3.flv&image=http://www.drawingfree.com/Ezine/Videos/Ezine_8/image_3.jpg" bgcolor="white" type="application/x-shockwave-flash" />
+		</object>
+	</p>
+</div>
+
+<br />
+<div class="still">
+	<p>
+		<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://macromedia.com/cabs/swflash.cab#version=6,0,0,0" ID=flaMovie width=400 height=300>
+			<param name="movie" value="http://www.drawingfree.com/Ezine/Videos/flash/player.swf">
+			<param name="bgcolor" value="white" />
+			<param name="flashvars" value="file=http://www.drawingfree.com/Ezine/Videos/Ezine_8/4.flv&image=http://www.drawingfree.com/Ezine/Videos/Ezine_8/image_4.jpg" />
+			<embed src="http://www.drawingfree.com/Ezine/Videos/flash/player.swf" width="500px" height="375px" flashVars="file=http://www.drawingfree.com/Ezine/Videos/Ezine_8/4.flv&image=http://www.drawingfree.com/Ezine/Videos/Ezine_8/image_4.jpg" bgcolor="white" type="application/x-shockwave-flash" />
+		</object>
+	</p>
+</div>
+
+<br />
+<div class="still">
+	<p>
+		<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://macromedia.com/cabs/swflash.cab#version=6,0,0,0" ID=flaMovie width=400 height=300>
+			<param name="movie" value="http://www.drawingfree.com/Ezine/Videos/flash/player.swf">
+			<param name="bgcolor" value="white" />
+			<param name="flashvars" value="file=http://www.drawingfree.com/Ezine/Videos/Ezine_8/5.flv&image=http://www.drawingfree.com/Ezine/Videos/Ezine_8/image_5.jpg" />
+			<embed src="http://www.drawingfree.com/Ezine/Videos/flash/player.swf" width="500px" height="375px" flashVars="file=http://www.drawingfree.com/Ezine/Videos/Ezine_8/5.flv&image=http://www.drawingfree.com/Ezine/Videos/Ezine_8/image_5.jpg" bgcolor="white" type="application/x-shockwave-flash" />
+		</object>
+	</p>
+</div>
+
+<br />
+<div class="still">
+	<p>
+		<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://macromedia.com/cabs/swflash.cab#version=6,0,0,0" ID=flaMovie width=400 height=300>
+			<param name="movie" value="http://www.drawingfree.com/Ezine/Videos/flash/player.swf">
+			<param name="bgcolor" value="white" />
+			<param name="flashvars" value="file=http://www.drawingfree.com/Ezine/Videos/Ezine_8/6.flv&image=http://www.drawingfree.com/Ezine/Videos/Ezine_8/image_6.jpg" />
+			<embed src="http://www.drawingfree.com/Ezine/Videos/flash/player.swf" width="500px" height="375px" flashVars="file=http://www.drawingfree.com/Ezine/Videos/Ezine_8/6.flv&image=http://www.drawingfree.com/Ezine/Videos/Ezine_8/image_6.jpg" bgcolor="white" type="application/x-shockwave-flash" />
+		</object>
+	</p>
+</div>
+
+<br />
+<div class="still">
+	<p>
+		<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://macromedia.com/cabs/swflash.cab#version=6,0,0,0" ID=flaMovie width=400 height=300>
+			<param name="movie" value="http://www.drawingfree.com/Ezine/Videos/flash/player.swf">
+			<param name="bgcolor" value="white" />
+			<param name="flashvars" value="file=http://www.drawingfree.com/Ezine/Videos/Ezine_8/7.flv&image=http://www.drawingfree.com/Ezine/Videos/Ezine_8/image_7.jpg" />
+			<embed src="http://www.drawingfree.com/Ezine/Videos/flash/player.swf" width="500px" height="375px" flashVars="file=http://www.drawingfree.com/Ezine/Videos/Ezine_8/7.flv&image=http://www.drawingfree.com/Ezine/Videos/Ezine_8/image_7.jpg" bgcolor="white" type="application/x-shockwave-flash" />
+		</object>
+	</p>
+</div>
+
+<!-- DIVIDER -->
+<div class="divider">
+	<img src="http://www.drawingfree.com/Ezine/Media/divider.jpg" alt="divider" width="305" height="55" />
+</div>
+
+<!-- IMAGE STILL CAPTION, CENTERED -->
+<div class="stillcaption">
+	 and the sun...
+</div>
+
+<br />
+<div class="still">
+	<p>
+		<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://macromedia.com/cabs/swflash.cab#version=6,0,0,0" ID=flaMovie width=400 height=300>
+			<param name="movie" value="http://www.drawingfree.com/Ezine/Videos/flash/player.swf">
+			<param name="bgcolor" value="white" />
+			<param name="flashvars" value="file=http://www.drawingfree.com/Ezine/Videos/Ezine_8/8.flv&image=http://www.drawingfree.com/Ezine/Videos/Ezine_8/image_8.jpg" />
+			<embed src="http://www.drawingfree.com/Ezine/Videos/flash/player.swf" width="500px" height="375px" flashVars="file=http://www.drawingfree.com/Ezine/Videos/Ezine_8/8.flv&image=http://www.drawingfree.com/Ezine/Videos/Ezine_8/image_8.jpg" bgcolor="white" type="application/x-shockwave-flash" />
+		</object>
+	</p>
+</div>
+
+<br />
+<div class="still">
+	<p>
+		<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://macromedia.com/cabs/swflash.cab#version=6,0,0,0" ID=flaMovie width=400 height=300>
+			<param name="movie" value="http://www.drawingfree.com/Ezine/Videos/flash/player.swf">
+			<param name="bgcolor" value="white" />
+			<param name="flashvars" value="file=http://www.drawingfree.com/Ezine/Videos/Ezine_8/9.flv&image=http://www.drawingfree.com/Ezine/Videos/Ezine_8/image_9.jpg" />
+			<embed src="http://www.drawingfree.com/Ezine/Videos/flash/player.swf" width="500px" height="375px" flashVars="file=http://www.drawingfree.com/Ezine/Videos/Ezine_8/9.flv&image=http://www.drawingfree.com/Ezine/Videos/Ezine_8/image_9.jpg" bgcolor="white" type="application/x-shockwave-flash" />
+		</object>
+	</p>
+</div>
+<div class="still">
+	<p>
+		<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://macromedia.com/cabs/swflash.cab#version=6,0,0,0" ID=flaMovie width=400 height=300>
+			<param name="movie" value="http://www.drawingfree.com/Ezine/Videos/flash/player.swf">
+			<param name="bgcolor" value="white" />
+			<param name="flashvars" value="file=http://www.drawingfree.com/Ezine/Videos/Ezine_8/10.flv&image=http://www.drawingfree.com/Ezine/Videos/Ezine_8/image_10.jpg" />
+			<embed src="http://www.drawingfree.com/Ezine/Videos/flash/player.swf" width="500px" height="375px" flashVars="file=http://www.drawingfree.com/Ezine/Videos/Ezine_8/10.flv&image=http://www.drawingfree.com/Ezine/Videos/Ezine_8/image_10.jpg" bgcolor="white" type="application/x-shockwave-flash" />
+		</object>
+	</p>
+</div>
+
+<br />
+
+
+
+<!-- FOOTER SECTION -->
+<div class="divider">
+	<img src="http://www.drawingfree.com/Ezine/Media/divider.jpg" alt="divider" width="305" height="55" />
+</div>
+
+<div id="feedback">
+	How are we doing? <a href="mailto:drawingfree@mac.com?subject=Here's some feedback for your ezine!">Mail us some feedback</a> on our ezine.
+</div>
+
+<p><b>For more information on Margaret Welty go to: <a href="http://www.margaretwelty.com" target="_blank">www.margaretwelty.com</a> -- but first <a href="http://drawingfree.com/index.php?signup=1">SIGN-UP HERE</a> FOR THE DRAWINGFREE EZINE.</b></p>
+
+<p style="text-align:center;"><b>Copies of each issue for DrawingFree Ezine can be found on the DrawingFree Web-site:<br /> <a href="http://www.drawingfree.com/index.php?frame=ezine" style="color:#B96E05;" target="_blank">www.drawingfree.com</a></b></p>
+
+<p style="font-size:11px;text-align:center;"><i>Copyright 2010 Margaret Welty.  All Rights Reserved.  Permission is granted to link to this site, information or to quote WITH author notation: "From the Drawing Free Ezine Created by Margaret Welty at www.drawingfree.com".</i></p>
+
+<div class="divider">
+	<img src="http://www.drawingfree.com/Ezine/Media/divider.jpg" alt="divider" width="305" height="55" />
+</div>
+
+<div id="closer">
+	<div id="drawingdog" style="position:absolute;top:85px;left:515px;">
+		<img src="http://drawingfree.com/Ezine/Media/drawing_dog_ezine.png" height="185" />
+	</div>
+	
+	<div id="closertext" style="padding-left:20px;width:480px">
+		<p align="center">
+		<div id="mwpic" style="float:left;border-width:1px;border-style:solid;margin-right:20px;margin-top:5px;">
+			<img src="http://drawingfree.com/Ezine/Media/mwpic.jpg" height="150px" />
+		</div>
+		
+		<b><span style="font-size:13px;">DRAWING FREE - ART FROM THE START</span> <br /> Presented by Margaret Welty and the Drawing Dog</b>
+		</p>
+		
+		<p>
+		Each lesson presented in the Drawing Free Ezine gives you ways to massage your own 
+		neurological white matter to further form and train your ever transitioning ART BRAIN.  
+		Remember that the key is to DRAW, play and be easy with yourself.  Eliminate any 
+		unrealistic expectations and judgements about your work.  Work to be happy while 
+		you draw!  Draw like a child with no expectations beyond your current beginner's 
+		brain, eyes, hands and heart.  Orient your focus toward the fascination that consumes 
+		a small child upon discovering that she can make her own marks appear.   Make your 
+		own marks appear!!  
+		</p>
+		
+		<p style="padding-left:110px;font-size:12px;"><i>Create a chance to draw.  Draw every chance you get.  <br />
+		Make a space to draw.  Draw in every space you make.</i>
+		</p>
+	</div>
+</div>
+				
+			</div>
+			<div id="textbg">
+				&nbsp;
+			</div>
+			<div id="borderr">
+				&nbsp;
+			</div>
+			<div id="borderl">
+				&nbsp;
+			</div>
+			<div id="borderb">
+				&nbsp;
+			</div>
+		</div>
+	</body>
+</html>
