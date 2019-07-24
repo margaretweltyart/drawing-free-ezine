@@ -1,0 +1,82 @@
+html, body {
+    margin: 50px;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+    background-color: white;
+    line-height: 1.9em;
+    letter-spacing: 0.01em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+     word-wrap: break-word;
+}
+
+h1, h2, h3 {
+    font-family: "Open Sans";
+    font-weight: 900;
+}
+h1 {
+    letter-spacing: -0.02em;
+    line-height: 0.9em;
+    margin-left: -3px;
+    font-size: 65px;
+}
+h2 {
+    text-transform: uppercase;
+    letter-spacing: -0.03em;
+    line-height: 1.3em;
+    font-size: 29px;
+    text-align: center;
+}
+h3 {
+    font-family: "Lato";
+    font-weight: 900;
+    line-height: 1.1em;
+    letter-spacing: -0.01em;
+    font-size: 27px;
+}
+h4 {
+    text-transform: uppercase;
+    font-size: 21px;
+    font-family: "Lato";
+    font-weight: 700;
+    line-height: 1.2em;
+}
+h5 {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: "Lato";
+    font-weight: 700;
+    line-height: 1.2em;
+    letter-spacing: 0.05em;
+    margin: 20px 0px;
+    padding: 0;
+}
+
+p {
+    font-size: 18px;
+    max-width: 800px;
+}
+a {
+    color: $gold;
+    text-decoration: none;
+}
+
+ul {
+    padding-left: 0px;
+}
+li {
+    font-size: 18px;
+    line-height: 1.4em;
+    padding: 8px 0px;
+    list-style: none;
+}
+li:before {
+    content: "\002022";
+    color: $gold;
+    padding-right: 14px;
+}
+
+
+img {
+    display: block;
+}
