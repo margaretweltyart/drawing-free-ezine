@@ -2,12 +2,13 @@ html, body {
     margin: 50px;
     padding: 0;
     font-family: "Lato", sans-serif;
-    background-color: white;
+    color: white;
+    background-color: #59978a; /* teal */
     line-height: 1.9em;
     letter-spacing: 0.01em;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-     word-wrap: break-word;
+    word-wrap: break-word;
 }
 
 h1, h2, h3 {
@@ -57,8 +58,10 @@ p {
     max-width: 800px;
 }
 a {
-    color: $gold;
+    color: white;
+    font-weight: 500;
     text-decoration: none;
+    color: #f2c143; /* gold */
 }
 
 ul {
@@ -72,7 +75,7 @@ li {
 }
 li:before {
     content: "\002022";
-    color: $gold;
+    color: #f2c143; /* gold */
     padding-right: 14px;
 }
 
